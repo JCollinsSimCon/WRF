@@ -752,8 +752,7 @@ IF ( wrf_dm_on_monitor() ) THEN
     
 ENDIF
 
-end
-
+END SUBROUTINE read_namelist_fire
 
 subroutine init_fuel_cats(init_fuel_moisture)
 implicit none
